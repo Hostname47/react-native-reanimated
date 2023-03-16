@@ -143,7 +143,7 @@ This can be done by wrapping the target value with one of the animation utility 
 ```js
 import { withTiming } from 'react-native-reanimated';
 
-someSharedValue.value = withTiming(50);
+offset.value = withTiming(50);
 ```
 
 In the above code the `offset` Shared Value instead of being set to `50` immediately, will transition from the current value to `50` using time-based animation.
